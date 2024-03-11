@@ -36,6 +36,8 @@ a {
 .list-unstyled{
     list-style-type: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .section-title {
@@ -64,6 +66,10 @@ header{
 .logo img{
     height: 1.2rem;
     padding: 30px 0 ;
+}
+
+nav li{
+    padding-top: 16px;
 }
 
 nav a{
@@ -195,6 +201,42 @@ nav a:hover{
     width: 65%;
 }
 
+.hebergements-cards{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.hebergements-cards .card-content {
+    margin: 0 15px;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 4px;
+}
+
+.hebergements-cards img {
+    width: 243px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.more{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -240,8 +282,22 @@ nav a:hover{
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
 
+footer{
+    display: flex;
+    background-color: var(--main-bg-color);
+}
 
+footer div{
+    flex: 1;
+}
+
+footer ul{
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
