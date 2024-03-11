@@ -2,6 +2,7 @@
 * {
     font-family: 'Raleway', sans-serif;
     border: none;
+    margin: 0;
 }
 
 :root {
@@ -15,7 +16,6 @@
 }
 
 body {
-    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -84,10 +84,19 @@ nav a:hover{
 
 /****** Info Group and Filters *******/
 
+.headline{
+    margin-bottom: 35px;
+}
+
+.headline h2{
+    margin-bottom: 8px;
+}
+
 .searchBar{
     display: flex;
     align-items: center;
     height: 50px;
+    margin-bottom: 35px;
 }
 
 .location{
@@ -123,13 +132,22 @@ nav a:hover{
     border-radius: 0 15px 15px 0;
 }
 
+
 .filterBar{
     display: flex;
     align-items: center;
+    height: 50px;
+    margin-bottom: 35px;
+    gap: 15px;
 }
 
+.filters{
+    display: flex;
+    gap: 15px;
+}
 
 .filter{
+    justify-content: space-between;
     padding: 13px 16px;
     border: 2px solid var(--main-bg-color);
     border-radius: 25px;
@@ -138,6 +156,7 @@ nav a:hover{
 }
 
 .filter i{
+    margin-right: 10px;
     font-size: 1.3rem;
 }
 
@@ -148,12 +167,14 @@ nav a:hover{
 .infoBar{
     display: flex;
     align-items: center;
+    margin-bottom: 35px;
 }
 
 .infoIcon{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
     width: 24px;
     height: 24px;
     border: 2px solid var(--main-bg-color);
