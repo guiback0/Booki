@@ -11,13 +11,20 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
-}
 
 body {
     display: flex;
     justify-content: center;
+}
+
+h2{
+    font-size: 22px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .main-container {
@@ -29,21 +36,19 @@ body {
     gap: 35px;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .list-unstyled{
     list-style-type: none;
     display: flex;
     padding: 0;
 }
 
+.fa-solid {
+    color: var(--main-color);
+}
+
 .section-title {
     margin: 0;
-    font-size: 22px;
+    
 }
 
 .btn{
@@ -70,12 +75,13 @@ header{
     padding: 30px 0 ;
 }
 
-nav li{
-    padding-top: 16px;
+nav{
+    margin-top: 16px;
 }
 
-nav a{
-    padding: 0 50px;
+nav ul{
+    gap: 68px;
+    
 }
 
 nav a:hover{
@@ -102,6 +108,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     height: 50px;
+    width: 377px;
 }
 
 .location{
@@ -111,7 +118,7 @@ nav a:hover{
     background-color: var(--main-bg-color);
     width: 50px;
     height: 100%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     border-radius: 15px 0 0 15px;
 }
 
@@ -129,10 +136,11 @@ nav a:hover{
 
 .searchInput::placeholder{
     color: #000;
+    font-size: 1.1rem;
 }
 
 .searchBar .btn{
-    width: 130px;
+    width: 134px;
     height: 100%;
     border-radius: 0 15px 15px 0;
 }
@@ -161,7 +169,7 @@ nav a:hover{
 
 .filter i{
     margin-right: 10px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .filter:hover{
@@ -182,6 +190,7 @@ nav a:hover{
     height: 24px;
     border: 2px solid var(--main-bg-color);
     border-radius: 24px;
+    font-size: 0.8rem;
 }
 
 .card {
@@ -201,6 +210,15 @@ nav a:hover{
 
 .euro {
     font-weight: 700;
+}
+
+.card-rating{
+    font-size: 1.1rem;
+    gap: 4px;
+}
+
+.fa-star{
+    margin-right: -4px;
 }
 
 .neutral-star {
@@ -237,23 +255,20 @@ nav a:hover{
 }
 
 .hebergements-cards .card-title {
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
-.hebergements-cards .card-subtitle {
-    margin: 0;
+.hebergements-cards .card-txt {
+    margin-bottom: 8px;
 }
 
-.hebergements-cards .card-rating {
-    margin-bottom: 4px;
-}
 
 .hebergements-cards img {
     width: 100%;
-    height: 124px;
+    height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-bottom: 4px;
 }
 
 .more{
@@ -315,7 +330,6 @@ nav a:hover{
 .activities-cards{
     display: flex;
     flex-direction: row;
-    width: 80%;
     gap: 30px;
     margin: 30px 0;
 }
@@ -334,7 +348,6 @@ nav a:hover{
 .activities-cards .card-content {
     display: flex;
     align-items: center;
-    height: 19px;
     padding:  20px 19px;
 }
 
