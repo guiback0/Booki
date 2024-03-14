@@ -1,4 +1,11 @@
 /****** Media queries ***********/
+
+:root {
+   --main-color: #0065fc;
+   --main-bg-color: #f2f2f2;
+   --filter-bg-color: #deebff;
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
    .hebergements-and-populaires {
@@ -49,7 +56,6 @@
    }
 
    nav {
-      margin-top: none;
       width: 100%;
    }
 

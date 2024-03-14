@@ -136,8 +136,13 @@ nav a:hover {
 }
 
 .searchInput::placeholder {
+    opacity: 1;
    color: #000;
    font-size: 1.1rem;
+}
+
+.searchInput:focus{
+    outline: none;
 }
 
 .searchBar .btn {
