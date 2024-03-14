@@ -131,7 +131,7 @@ nav a:hover{
 
 .searchInput{
     height: 100%;
-    width: 200px;
+    width: 220px;
     padding: 15px;
     border: 1px solid var(--main-bg-color);
     font-weight: 700;
