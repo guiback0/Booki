@@ -361,8 +361,9 @@ nav a:hover {
 
 .activities-cards h3 {
    position: absolute;
-   top: 91%;
+   top: 93%;
    left: 20px;
+   transform: translateY(-50%);
 }
 
 /****** Footer ***********/
