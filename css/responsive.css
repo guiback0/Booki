@@ -92,15 +92,15 @@
       padding: 0 20px;
    }
 
-   .searchBar {
+   .search-bar {
       width: 101.5%;
    }
 
-   .searchInput {
+   .search-input {
       flex: 1;
    }
 
-   .searchBar .btn {
+   .search-bar .btn {
       position: relative;
       left: -10px;
       padding: 0;
@@ -108,11 +108,11 @@
       border-radius: 15px 15px 15px 15px;
    }
 
-   .searchBar .btn i {
+   .search-bar .btn i {
       display: block;
    }
 
-   .searchBar .btn span {
+   .search-bar .btn span {
       display: none;
    }
 

@@ -24,6 +24,7 @@
          <header>
             <a href="index.html" class="logo">
                <img src="images/logo/Booki.png" alt="Logo du site Booki">
+               <h1 class="hidden-title">Booki</h1>
             </a>
             <nav>
                <ul class="list-unstyled">
@@ -35,16 +36,18 @@
          <main>
             <div class="info-group">
                <div class="headline">
-                  <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+                  <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                   <p>En plein centre-ville ou en pleine nature</p>
                </div>
-               <form class="searchBar" action="#" method="GET">
+               <form class="search-bar" action="#" role="search" method="GET">
+                  <label class="hidden-title" for="search">Recherche</label>
                   <div class="location">
                      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                   </div>
                   <input
                      type="search"
-                     class="searchInput"
+                     id="search"
+                     class="search-input"
                      placeholder="Marseille, France"
                      onfocus="this.placeholder = ''">
 
@@ -53,7 +56,7 @@
                      <i class="fas fa-search" aria-hidden="true"></i>
                   </button>
                </form>
-               <div class="filterBar">
+               <div class="filter-bar">
                   <h3>Filtres</h3>
                   <div class="filters">
                      <a href="#" class="filter">
@@ -76,8 +79,8 @@
                      </a>
                   </div>
                </div>
-               <div class="infoBar">
-                  <div class="infoIcon">
+               <div class="info-bar">
+                  <div class="info-icon">
                      <i class="fa-solid fa-info" aria-hidden="true"></i>
                   </div>
                   <p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -86,14 +89,14 @@
             <div class="hebergements-and-populaires" id="hebergements">
                <section class="hebergements">
                   <div class="populaires-title">
-                     <h3 class="section-title">Hébergements à Marseille</h3>
+                     <h2 class="section-title">Hébergements à Marseille</h2>
                   </div>
                   <div class="hebergements-cards">
                      <a href="#">
                         <article class="card">
                            <img
                               src="images/hebergements/fred-kleber.jpg"
-                              alt="Image de la chambre d'hôtel montrant un lit">
+                              alt="Image de la chambre d'hôtel montrant deux lits simple">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">Hôtel du port</h3>
@@ -128,7 +131,7 @@
                         <article class="card">
                            <img
                               src="images/hebergements/febrian-zakaria.jpg"
-                              alt="Image de la chambre d'hôtel montrant un lit">
+                              alt="Image de la chambre d'hôtel montrant un lit, un bureau et une télé">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">Hôtel chez Amina</h3>
@@ -163,7 +166,7 @@
                         <article class="card">
                            <img
                               src="images/hebergements/reisetopia.jpg"
-                              alt="Image de la chambre d'hôtel montrant un lit">
+                              alt="Image de la chambre d'hôtel montrant un lit et un dressing">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">Hôtel Les mouettes</h3>
@@ -198,7 +201,7 @@
                         <article class="card">
                            <img
                               src="images/hebergements/annie-spratt.jpg"
-                              alt="Image de la chambre d'hôtel montrant un lit">
+                              alt="Image de la chambre d'hôtel montrant un lit double et un cadre représentant la mer">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">Hôtel de la mer</h3>
@@ -233,7 +236,7 @@
                         <article class="card">
                            <img
                               src="images/hebergements/marcus-loke.jpg"
-                              alt="Image de la chambre d'auberge montrant des lits superposés">
+                              alt="Image de la chambre d'auberge montrant des lits superposés devant une fenêtre">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">
@@ -309,7 +312,7 @@
 
                <section class="populaires">
                   <div class="populaires-title">
-                     <h3 class="section-title">Les plus populaires</h3>
+                     <h2 class="section-title">Les plus populaires</h2>
                      <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                   </div>
                   <div class="populaires-cards">
@@ -317,7 +320,7 @@
                         <article class="card">
                            <img
                               src="./images/hebergements/emile-guillemot.jpg"
-                              alt="Image de la chambre d'hôtel montrant un lit">
+                              alt="Image de la chambre d'hôtel de couleur verte montrant un lit double">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">
@@ -354,7 +357,7 @@
                         <article class="card">
                            <img
                               src="./images/hebergements/aw-creative.jpg"
-                              alt="Image de la chambre d'hôtel montrant un lit">
+                              alt="Image de la suite d'un hôtel montrant un lit">
                            <div class="card-content">
                               <div class="card-txt">
                                  <h3 class="card-title">
@@ -427,7 +430,7 @@
             </div>
 
             <section class="activities" id="activities">
-               <h3 class="activities-titels">Activités à Marseille</h3>
+               <h2 class="activities-titels">Activités à Marseille</h2>
                <div class="activities-cards">
                   <a href="#">
                      <article class="card">
