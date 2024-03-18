@@ -22,7 +22,7 @@ body {
    overflow-x: hidden;
 }
 
-h2 {
+h1 {
    font-size: 22px;
 }
 
@@ -101,7 +101,7 @@ nav a:hover {
    margin: 35px 0;
 }
 
-.headline h2 {
+.headline h1 {
    margin-bottom: 8px;
 }
 
@@ -363,7 +363,7 @@ nav a:hover {
    border-top-right-radius: 20px;
 }
 
-.activities-cards h3 {
+.activities-cards h2 {
    position: absolute;
    top: 93%;
    left: 20px;
